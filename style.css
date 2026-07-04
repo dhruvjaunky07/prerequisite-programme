@@ -1,0 +1,73 @@
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  margin: 0;
+}
+
+/* Hamburger icon */
+.menu-icon {
+  font-size: 24px;
+  cursor: pointer;
+  padding: 15px;
+  background: #333;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1001;
+}
+
+/* Sidebar menu */
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #333;
+  overflow-x: hidden;
+  transition: 0.3s;
+  padding-top: 60px;
+  z-index: 1000;
+}
+
+.sidebar a {
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  display: block;
+}
+
+.sidebar a:hover {
+  background: #575757;
+}
+
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
+
+/* Content container */
+.container {
+  padding: 80px 20px;
+}
+
+/* Checklist styling */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
