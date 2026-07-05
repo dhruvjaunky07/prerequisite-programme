@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Waste Management Checklist</title>
+  <!-- Shared CSS file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Hamburger icon -->
+  <div class="menu-icon" onclick="openNav()">☰</div>
+
+  <!-- Sidebar menu -->
+  <div id="mySidebar" class="sidebar">
+    <span class="closebtn" onclick="closeNav()">×</span>
+    <a href="hygiene.html">Personal Hygiene</a>
+    <a href="cleaning.html">Cleaning & Sanitation</a>
+    <a href="pest.html">Pest Control</a>
+    <a href="waste.html">Waste Management</a>
+    <a href="allergen.html">Allergen Control</a>
+    <a href="foreign.html">Foreign Body Prevention</a>
+    <a href="main.html">← Back to Dashboard</a>
+  </div>
+
+  <div class="container">
+    <h1>🗑️ Waste Management Checklist</h1>
+    <ul id="checklist">
+      <li><input type="checkbox" id="waste_item1"> Segregate waste properly (organic, recyclable, hazardous)</li>
+      <li><input type="checkbox" id="waste_item2"> Dispose of waste promptly</li>
+      <li><input type="checkbox" id="waste_item3"> Keep bins clean and covered</li>
+      <li><input type="checkbox" id="waste_item4"> Empty bins regularly to avoid overflow</li>
+      <li><input type="checkbox" id="waste_item5"> Train staff on waste handling procedures</li>
+    </ul>
+  </div>
+
+  <!-- Shared JS file -->
+  <script src="script.js"></script>
+</body>
+</html>
